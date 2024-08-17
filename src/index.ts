@@ -6,5 +6,5 @@ console.log(result);
 
 export { sum }
 
-// test
+// 测试修改内容
 Array(1, 2, 3)
