@@ -1,6 +1,6 @@
 {
   "name": "tsup-pkg",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "packageManager": "pnpm@9.2.0",
   "sideEffects": false,
@@ -27,7 +27,7 @@
   ],
   "scripts": {
     "start": "tsx src/index.ts",
-    "publish": "nrm use npm && npm publish",
+    "release": "nrm use npm && npm publish",
     "build": "tsup",
     "build:watch": "tsup --watch",
     "lint": "eslint . --ext .js,.ts",
